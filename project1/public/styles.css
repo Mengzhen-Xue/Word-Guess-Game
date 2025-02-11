@@ -1,0 +1,117 @@
+
+body {
+    background-color: lightblue;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+
+form.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+button:hover {
+    background-color: #317735;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 80px;
+    text-align: center;
+}
+
+.message{
+    color: rgb(23, 25, 20);
+    text-align: center;
+}
+.error-message{
+    color: red;
+    text-align: center;
+}
+
+.game-intro {
+    color: red;
+    margin-bottom: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-intro p {
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h2.info-text {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+p.guess-message {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul.guess-info {
+    background-color: #CAF0F8;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
